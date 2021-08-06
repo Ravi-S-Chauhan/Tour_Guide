@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tourism"
+        android:id="@+id/tour_img"
+        android:adjustViewBounds="true"/>
+
+    <!--    Shopping View -->
+
+    <LinearLayout
+        android:id="@+id/shopping_view"
+        style="@style/container"
+        android:layout_below="@id/tour_img"
+        >
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_add_shopping_cart_24"
+            />
+
+        <TextView
+            style="@style/textview"
+            android:shadowRadius="10"
+            android:text="@string/shopping" />
+    </LinearLayout>
+
+    <!--    Restaurant View  -->
+
+    <LinearLayout
+        android:id="@+id/restaurant_view"
+        style="@style/container"
+        android:layout_below="@id/shopping_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_restaurant_24" />
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/restaurants" />
+    </LinearLayout>
+
+    <!--    Pharmacy View  -->
+
+    <LinearLayout
+        android:id="@+id/pharmacy_view"
+        style="@style/container"
+        android:layout_below="@id/restaurant_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_local_pharmacy_24" />
+
+        <TextView
+            style="@style/textview"
+            android:gravity="center_vertical"
+            android:text="@string/Pharmacy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/beach_view"
+        style="@style/container"
+        android:layout_below="@id/pharmacy_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_beach_access_24" />
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/beach" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hospital_view"
+        style="@style/container"
+        android:layout_below="@id/beach_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_local_hospital_24" />
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/hospital" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/school_view"
+        style="@style/container"
+        android:layout_below="@id/hospital_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_school_24" />
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/school" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gas_station_view"
+        style="@style/container"
+        android:layout_below="@id/school_view">
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/ic_baseline_local_gas_station_24" />
+
+        <TextView
+            style="@style/textview"
+            android:text="@string/gas_station" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

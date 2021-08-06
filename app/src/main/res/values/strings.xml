@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="shopping">Shopping</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="Pharmacy">Pharmacy</string>
+    <string name="beach">Beach</string>
+    <string name="school">School</string>
+    <string name="hiking">Hiking</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="hospital">Hospital</string>
+</resources>
