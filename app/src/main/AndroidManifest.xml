@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuide">
+        <activity android:name=".GasStatioin"></activity>
+        <activity android:name=".SchoolActivity" />
+        <activity android:name=".HospitalActivity" />
+        <activity android:name=".BeachActivity" />
+        <activity android:name=".PharmacyActivity" />
+        <activity android:name=".RestaurantActivity" />
+        <activity android:name=".ShoppingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

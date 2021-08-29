@@ -25,7 +25,7 @@
         android:id="@+id/shopping_view"
         style="@style/container"
         android:layout_below="@id/tour_img"
-        >
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             style="@style/imageView"
@@ -35,7 +35,10 @@
         <TextView
             style="@style/textview"
             android:shadowRadius="10"
-            android:text="@string/shopping" />
+            android:text="@string/shopping"
+            android:id="@+id/shopping_text_view"
+            android:background="?android:selectableItemBackground"
+            />
     </LinearLayout>
 
     <!--    Restaurant View  -->
@@ -43,7 +46,8 @@
     <LinearLayout
         android:id="@+id/restaurant_view"
         style="@style/container"
-        android:layout_below="@id/shopping_view">
+        android:layout_below="@id/shopping_view"
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             style="@style/imageView"
@@ -51,7 +55,10 @@
 
         <TextView
             style="@style/textview"
-            android:text="@string/restaurants" />
+            android:text="@string/restaurants"
+            android:id="@+id/restaurant_text_view"
+            android:background="?android:selectableItemBackground"
+            />
     </LinearLayout>
 
     <!--    Pharmacy View  -->
@@ -59,7 +66,8 @@
     <LinearLayout
         android:id="@+id/pharmacy_view"
         style="@style/container"
-        android:layout_below="@id/restaurant_view">
+        android:layout_below="@id/restaurant_view"
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             style="@style/imageView"
@@ -68,7 +76,10 @@
         <TextView
             style="@style/textview"
             android:gravity="center_vertical"
-            android:text="@string/Pharmacy" />
+            android:id="@+id/pharmacy_text_view"
+            android:text="@string/Pharmacy"
+            android:background="?android:selectableItemBackground"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -82,7 +93,10 @@
 
         <TextView
             style="@style/textview"
-            android:text="@string/beach" />
+            android:text="@string/beach"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/beach_text_view"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -96,7 +110,10 @@
 
         <TextView
             style="@style/textview"
-            android:text="@string/hospital" />
+            android:text="@string/hospital"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/hospital_text_view"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -110,7 +127,10 @@
 
         <TextView
             style="@style/textview"
-            android:text="@string/school" />
+            android:text="@string/school"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/school_text_view"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -124,7 +144,10 @@
 
         <TextView
             style="@style/textview"
-            android:text="@string/gas_station" />
+            android:text="@string/gas_station"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/gas_station_text_view"
+            />
     </LinearLayout>
 
 

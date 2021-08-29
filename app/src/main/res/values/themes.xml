@@ -22,10 +22,9 @@
         <item name="android:paddingLeft">24dp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-black</item>
-        <item name="android:background">#F58B37</item>
         <item name="android:textColor">#1C163C</item>
-        <item name="background">?android:attr/selectableItemBackground</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="background">?android:selectableItemBackground</item>
 
     </style>
 
@@ -37,11 +36,23 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:shape">rectangle</item>
         <item name="android:radius">10dp</item>
+        <item name="android:background">#F58B37</item>
+
     </style>
+
     <style name="imageView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:padding">14dp</item>
         <item name="android:background">#4A6572</item>
     </style>
+
+    <style name="Theme.TourGuide.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TourGuide.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TourGuide.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

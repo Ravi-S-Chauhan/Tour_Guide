@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">City Guide</string>
     <string name="shopping">Shopping</string>
     <string name="restaurants">Restaurants</string>
     <string name="Pharmacy">Pharmacy</string>
@@ -8,4 +8,12 @@
     <string name="hiking">Hiking</string>
     <string name="gas_station">Gas Station</string>
     <string name="hospital">Hospital</string>
+    <string name="title_activity_shopping_activity">Shopping</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_school">School</string>
+    <string name="title_activity_restaurants">Restaurants</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>
